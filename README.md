@@ -2,7 +2,22 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+1. Download and install Ganache
+2. Create new project in Ganache
+3. Download MetaMask wallet
+4. Add new network of Ganache to MetaMask wallet
+5. Fill in the network information just created in Ganache into the network section in truffle-config.js
+6. Install package
+```bash
+npm i
+```
+7. Run smart contract
+```bash
+truffle compile
+
+truffle migrate
+```
+8. Run the development server:
 
 ```bash
 npm run dev
